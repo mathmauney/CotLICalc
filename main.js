@@ -50,6 +50,10 @@ function itemDPS(rarity) {
       return 1.4;
     case "Golden Epic":
       return 1.6;
+    case "Legendary":
+      return 1.8;
+    case "Golden Legendary":
+      return 2.2;
     default:
       return 1;
   }
@@ -67,6 +71,10 @@ function itemSelfDPS(rarity) {
       return 5;
     case "Golden Epic":
       return 7;
+    case "Legendary":
+      return 9;
+    case "Golden Legendary":
+      return 13;    
     default:
       return 1;
   }
@@ -84,6 +92,10 @@ function itemGold(rarity) {
       return 2;
     case "Golden Epic":
       return 2.5;
+    case "Legendary":
+      return 3;
+    case "Golden Legendary":
+      return 4;      
     default:
       return 1;
   }
@@ -101,6 +113,10 @@ function itemCrit(rarity) {
       return 4;
     case "Golden Epic":
       return 6;
+    case "Legendary":
+      return 8;
+    case "Golden Legendary":
+      return 12;      
     default:
       return 0;
   }
@@ -118,6 +134,10 @@ function itemAbility(rarity) {
       return 2;
     case "Golden Epic":
       return 2.5;
+    case "Legendary":
+      return 3;
+    case "Golden Legendary":
+      return 4;      
     default:
       return 1;
   }
